@@ -1,9 +1,16 @@
 /* app.css */
 #root {
+<<<<<<< HEAD
   max-width: none;
   width: 100%;
   margin: 0;
   padding: 0;
+=======
+  max-width: none;   /* plus de limite 1280px */
+  width: 100%;
+  margin: 0;         /* pas de centrage global */
+  padding: 0;        /* pas de padding global */
+>>>>>>> 6828fa7 (fix: layout full width + head cleanup)
   text-align: initial;
 }
 
