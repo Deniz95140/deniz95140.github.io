@@ -1,9 +1,9 @@
 /* app.css */
 #root {
-  max-width: none;   /* au lieu de 1280px */
+  max-width: none;
   width: 100%;
-  margin: 0;         /* pas de centrage forcé */
-  padding: 0;        /* on enlève le padding global */
+  margin: 0;
+  padding: 0;
   text-align: initial;
 }
 
