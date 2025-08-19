@@ -1,9 +1,12 @@
+/* app.css */
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  max-width: none;   /* au lieu de 1280px */
+  width: 100%;
+  margin: 0;         /* pas de centrage forcé */
+  padding: 0;        /* on enlève le padding global */
+  text-align: initial;
 }
+
 
 .logo {
   height: 6em;
