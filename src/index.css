@@ -358,6 +358,14 @@ section#companies {
   margin-left: 16px;
 }
 
+.projects-subtitle {
+  margin-top: 24px;
+}
+
+.projects-subtitle-development {
+  margin-top: 72px;
+}
+
 .portfolio__projects {
   margin-top: 64px;
   display: grid;

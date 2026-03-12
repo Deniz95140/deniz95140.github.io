@@ -22,6 +22,15 @@ import Pandas from '../assets/images/lang23.png';
 import Pygame from '../assets/images/lang24.svg';
 import Tkinter from '../assets/images/lang25.svg';
 import Gymnasium from '../assets/images/lang26.svg';
+import Git from '../assets/images/lang35.png';
+import Bash from '../assets/images/lang34.png';
+import Linux from '../assets/images/lang33.png';
+import RaspberryPico from '../assets/images/lang32.png';
+import ESP32 from '../assets/images/lang31.png';
+import STM32 from '../assets/images/lang30.png';
+import Arduino from '../assets/images/lang27.png';
+import Cpp from '../assets/images/lang28.png';
+import CLang from '../assets/images/lang29.png';
 export const competences = [
   { id: 1, name: 'PHP', img: PHP },
   { id: 2, name: 'JavaScript', img: JS },
@@ -48,55 +57,34 @@ export const competences = [
   { id: 23, name: 'Tkinter', img: Tkinter },
   { id: 22, name: 'Gymnasium', img: Gymnasium },
 ];
-// === Vue groupée pour l'affichage par catégories ===
+// === Vue groupÃƒÂ©e pour l'affichage par catÃƒÂ©gories ===
 export const competenceGroups = [
   {
-    title: 'IA & Data',
+    title: 'Syst\u00E8mes embarqu\u00E9s',
     items: [
-      { id: 'ia1', name: 'Python', img: Python },
-      { id: 'ia2', name: 'PyTorch', img: PyTorch },
-      { id: 'ia3', name: 'TensorFlow', img: Tensorflow },
-      { id: 'ia4', name: 'Scikit-Learn', img: ScikitLearn },
-      { id: 'ia5', name: 'NumPy', img: NumPy },
-      { id: 'ia6', name: 'Pandas', img: Pandas },
-      { id: 'ia7', name: 'Gymnasium', img: Gymnasium },
-      { id: 'ia8', name: 'Pygame', img: Pygame },
-      { id: 'ia9', name: 'Tkinter', img: Tkinter },
+      { id: 'se1', name: 'Arduino', img: Arduino },
+      { id: 'se2', name: 'STM32', img: STM32 },
+      { id: 'se3', name: 'ESP32', img: ESP32 },
+      { id: 'se4', name: 'Raspberry Pi Pico', img: RaspberryPico },
     ],
   },
   {
-    title: 'Web Front-End',
+    title: 'Langages de programmation',
     items: [
-      { id: 'fe1', name: 'JavaScript', img: JS },
-      { id: 'fe2', name: 'TypeScript', img: TS },
-      { id: 'fe3', name: 'React', img: React },
-      { id: 'fe4', name: 'SCSS', img: SCSS },
-      { id: 'fe5', name: 'Tailwind', img: Tailwind },
-      { id: 'fe6', name: 'jQuery', img: jQuery },
+      { id: 'lp1', name: 'C', img: CLang },
+      { id: 'lp2', name: 'C++', img: Cpp },
+      { id: 'lp3', name: 'Python', img: Python },
+      { id: 'lp4', name: 'JavaScript', img: JS },
     ],
   },
   {
-    title: 'Back-End & Bases de données',
+    title: 'Outils informatiques & environnement',
     items: [
-      { id: 'be1', name: 'Node.js', img: Node },
-      { id: 'be2', name: 'PHP', img: PHP },
-      { id: 'be3', name: 'MySQL', img: MySQL },
-      { id: 'be4', name: 'PostgreSQL', img: PostgreSQL },
-      { id: 'be5', name: 'MongoDB', img: Mongo },
-      { id: 'be6', name: 'Redis', img: Redis },
-    ],
-  },
-  {
-    title: 'Outils & Data Viz',
-    items: [
-      { id: 'tool1', name: 'PowerBI', img: PowerBI },
-      { id: 'tool2', name: 'ElectronJS', img: Electron },
-    ],
-  },
-  {
-    title: 'Autres',
-    items: [
-      { id: 'oth1', name: 'Java', img: Java },
+      { id: 'oi1', name: 'Linux', img: Linux },
+      { id: 'oi2', name: 'Bash', img: Bash },
+      { id: 'oi3', name: 'Git', img: Git },
+      { id: 'oi4', name: 'TensorFlow', img: Tensorflow },
+      { id: 'oi5', name: 'PyTorch', img: PyTorch },
     ],
   },
 ];
